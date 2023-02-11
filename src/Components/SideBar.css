@@ -1,0 +1,25 @@
+#SideBar {
+    flex: 0.1;
+    position: sticky;
+    top: 10px;
+    height: 100%;
+
+
+
+}
+
+hr {
+    background-color: lightgray;
+    font-weight: 500;
+    height: 1px;
+    border: 0;
+}
+
+h3 {
+    flex: 1;
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+

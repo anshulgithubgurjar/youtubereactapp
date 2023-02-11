@@ -1,0 +1,63 @@
+#SideBarRow {
+    display: flex;
+    align-items: center;
+    padding: 10 px 20px;
+}
+
+#SideBarRowIcon {
+    /* font-size: large !important; */
+    color: lightgray;
+}
+
+#SideBarRowTitle {
+    font-size: 18px;
+    color: black;
+    margin: 10px;
+    flex: 1;
+}
+
+#SideBarRow:hover {
+    background-color: lightgray;
+    border-radius: 10px;
+    width: auto;
+}
+
+
+#SideBarRow:hover>#SideBarRowIcon {
+    color: rgb(255, 0, 0);
+}
+
+
+
+
+#SideBarRow:active {
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+
+#SideBarRow:active>#SideBarRowIcon {
+    color: rgb(255, 0, 0);
+}
+@media  (max-width:500px){
+#SideBarRowIcon{
+height: 15px;
+margin-left: -5px;
+display: none;
+}
+#SideBarRowTitle{
+    font-size: 10px;
+    margin-left: 1px;
+display: none;
+
+}
+h3{
+    display: none;
+}
+hr{
+    display: none;
+    
+}
+
+
+}

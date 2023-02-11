@@ -1,0 +1,140 @@
+#NavBar {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 10px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: white;
+
+}
+
+#First {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+#MenuIcon{
+  cursor: pointer;
+}
+
+#YtLogo {
+  height: 60px;
+  object-fit: contain;
+  margin-left: 10px;
+}
+
+#Second {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+
+#Second>input {
+  flex: 1;
+  height: 40px;
+  width: 10px;
+  outline: none;
+  border-radius: 40px;
+  border-color: rgb(245, 241, 241);
+
+}
+
+#Searchicon {
+  position: absolute;
+  height: 37px;
+  width: 25px;
+  margin-left: -29px;
+  top: 15px;
+  /* background-color: rgb(245, 241, 241); */
+  /* border-radius: 0 10px 10px 0; */
+  /* border-color:  rgb(245, 241, 241); */
+  /* border-left: 1px solid  rgb(245, 241, 241); */
+}
+
+#KeyboardVoiceIcon {
+  margin-left: 30px;
+
+}
+
+#KeyboardVoiceIcon:hover {
+  background-color: rgb(190, 180, 180);
+  border-radius: 20px;
+  width: auto;
+}
+
+
+
+#Third {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.NavBarIcon {
+  margin-left: 8px;
+  margin: 5px;
+  /* color: white; */
+}
+
+#img123 {
+  height: 50px;
+}
+
+
+
+
+.img {
+  /* text-align: center; */
+  background-image: url(/public/7c545bb11996e2b650211011c57c08b5.jpg);
+  background-position-x: center;
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  background-attachment: fixed;
+
+}
+
+.btn-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.offcanvas.offcanvas-start {
+  width: 200px;
+}
+@media (max-width:500px) {
+  .NavBar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+  }
+
+  #YtLogo {
+    height: 40px;
+    margin-left: 0;
+  }
+
+  #Second>input {
+
+    height: 30px;
+    width: 0;
+  }
+
+  #MenuIcon {
+    margin-left: -12px;
+  }
+
+  #Searchicon {
+    margin-left: 5px;
+    height: 30px;
+  }
+}

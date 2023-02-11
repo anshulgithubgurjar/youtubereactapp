@@ -1,0 +1,59 @@
+#VideoCard {
+    margin: 0 20px 40px 10px;
+    /* border: 2px solid red; */
+    margin-bottom: 40px;
+    width: 250px;
+    height: 280px;
+
+}
+
+#Thumbnail{
+    height: 150px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+
+#VideoInfo{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 10px;
+ }
+
+
+ #VideoText{
+    text-align: left;
+    margin-left: 10px;
+    overflow: hidden;
+ }
+
+
+
+ #VideoText  h2{
+    
+    font-size: 14px;
+ }
+
+
+ #VideoText  p{
+    font-size: 14px;
+    margin: 0;
+    color: gray !important;
+ }
+
+a{
+   text-decoration: none;
+   color: black !important;
+}
+
+
+
+@media  (max-width:500px) {
+  
+   #VideoCard{
+      margin-left:0;
+      width: 100%;
+   }
+}

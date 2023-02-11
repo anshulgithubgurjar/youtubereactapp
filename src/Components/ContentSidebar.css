@@ -1,0 +1,35 @@
+#ContentSidebar{
+    flex: 0.1;
+    position: sticky;
+    top: 70px;
+    height: 100%;
+
+}
+#ContentSidebarIcon{
+    margin-left: 40px;
+    height: 50px;
+}
+
+#ContentSidebarIcon:hover{
+    background-color: lightgrey;
+    color: red;
+}
+
+div >p{
+    margin-left: 35px;
+    font-size: 12px;
+}
+#Subscripations{
+    font-size: 12px;
+    margin-left: 17px;
+}
+#hovet:hover{
+    background-color: lightgrey;
+    /* color: red; */
+    border-radius: 15px;
+}
+
+#hovet:hover>#ContentSidebarIcon {
+    color: rgb(255, 0, 0);
+    
+}
